@@ -1,0 +1,41 @@
+# 项目启动端口
+port: 8992
+
+# 项目名
+cpName: demo4
+
+# 启动模式： dev：调试， pro:生产
+env: dev
+
+# 日志路径
+logPath: /data/log/
+
+# 日志文件
+logFile: app.log
+
+# 日志文件
+logLevel: 4
+
+# 数据库host
+mysqlHost: 127.0.0.1
+
+# 数据库端口
+mysqlPort: 3307
+
+# 数据库用户
+mysqlUser: test
+
+# 数据库密码
+mysqlPass: test123
+
+# 默认数据库
+mysqlDatabase: demo4
+
+# 数据库连接池
+mysqlMaxConn: 50
+
+# 数据库最大Idle
+mysqlMaxIdle: 50
+
+# 默认请求超时
+queryTimeout: 60

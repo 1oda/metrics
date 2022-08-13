@@ -1,0 +1,3 @@
+{"level":"error","msg":"register db Ping `default`, Error 1045: Access denied for user 'test'@'172.17.0.1' (using password: YES)","time":"2022-08-13T16:12:04+08:00"}
+{"level":"error","msg":"register db Ping `default`, Error 1045: Access denied for user 'test'@'172.17.0.1' (using password: YES)","time":"2022-08-13T16:14:08+08:00"}
+{"level":"info","msg":"server running on 0.0.0.0:8992","time":"2022-08-13T16:16:55+08:00"}
