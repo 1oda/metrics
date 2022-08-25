@@ -43,7 +43,7 @@
 
 ### docker部署MySQL
 ```bash
-docker run --name mysql_3307 \ 
+docker run --name mysql_3307 \
 -v /data/mysql/3307/conf/:/etc/mysql/conf.d \
 -v /data/mysql/3307/data:/var/lib/mysql \
 -v /data/mysql/3307/log:/root/mysql/logs \
@@ -54,7 +54,8 @@ docker run --name mysql_3307 \
 
 
 # 登录mysql： 
-docker exec -it mysql_3307 -uroot  -P 3307 -proot
+docker exec -it mysql_3307 bash
+mysql -uroot  -P 3306 -proot
 
 # 创建demo4数据库
 CREATE DATABASE `demo4` CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_general_ci';
